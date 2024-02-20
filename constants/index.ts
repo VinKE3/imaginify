@@ -10,7 +10,7 @@ export const navLinks = [
     icon: "/assets/icons/image.svg",
   },
   {
-    label: "Generarr Relleno",
+    label: "Generar Relleno",
     route: "/transformations/add/fill",
     icon: "/assets/icons/stars.svg",
   },
@@ -20,7 +20,7 @@ export const navLinks = [
     icon: "/assets/icons/scan.svg",
   },
   {
-    label: "Recolorar Objeto",
+    label: "Recolorear Objeto",
     route: "/transformations/add/recolor",
     icon: "/assets/icons/filter.svg",
   },
@@ -69,7 +69,7 @@ export const plans = [
   },
   {
     _id: 2,
-    name: "Pro Package",
+    name: "Pack Pro",
     icon: "/assets/icons/free-plan.svg",
     price: 40,
     credits: 120,
@@ -94,7 +94,7 @@ export const plans = [
   },
   {
     _id: 3,
-    name: "Premium Package",
+    name: "Pack Premium",
     icon: "/assets/icons/free-plan.svg",
     price: 199,
     credits: 2000,
@@ -152,7 +152,7 @@ export const transformationTypes = {
   },
   recolor: {
     type: "recolor",
-    title: "Recolorar Objeto",
+    title: "Recolorear Objeto",
     subTitle: "Cambia el color de los objetos en la imagen",
     config: {
       recolor: { prompt: "", to: "", multiple: true },
